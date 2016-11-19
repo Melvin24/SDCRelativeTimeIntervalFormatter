@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
 
-    s.source_files = 'SDCRelativeTimeIntervalFormatter/Classes/**/*'
+    s.source_files = 'SDCRelativeTimeIntervalFormatter/Source/**/*'
 
     s.resource_bundles = {
         'SDCRelativeTimeIntervalFormatter' => ['SDCRelativeTimeIntervalFormatter/Assets/*.lproj']
