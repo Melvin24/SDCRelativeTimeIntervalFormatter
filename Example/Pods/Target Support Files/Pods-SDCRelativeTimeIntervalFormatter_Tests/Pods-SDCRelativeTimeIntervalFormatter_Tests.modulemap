@@ -1,0 +1,6 @@
+framework module Pods_SDCRelativeTimeIntervalFormatter_Tests {
+  umbrella header "Pods-SDCRelativeTimeIntervalFormatter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

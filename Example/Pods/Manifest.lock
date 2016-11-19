@@ -1,0 +1,16 @@
+PODS:
+  - SDCRelativeTimeIntervalFormatter (0.1.0)
+
+DEPENDENCIES:
+  - SDCRelativeTimeIntervalFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  SDCRelativeTimeIntervalFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDCRelativeTimeIntervalFormatter: a821ea79794000e1c7a352ceb1f37584635c514e
+
+PODFILE CHECKSUM: c1c2cba035f6748d5c513a346af13fc9642d212c
+
+COCOAPODS: 1.1.1
