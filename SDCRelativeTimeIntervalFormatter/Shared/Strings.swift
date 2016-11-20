@@ -215,7 +215,7 @@ public class Strings {
     }()
     
     private static func localizedStringFromTimeIntervalFormtterForKey(_ key: String, replacementValue value: String?) -> String {
-        guard let localizedString = Strings.formatterKitBundle?.localizedString(forKey: key, value: value, table: "PrettyDate") else {
+        guard let localizedString = Strings.formatterKitBundle?.localizedString(forKey: key, value: value, table: "SDCRelativeTimeIntervalFormatterLocalizable") else {
             return ""
         }
         return localizedString

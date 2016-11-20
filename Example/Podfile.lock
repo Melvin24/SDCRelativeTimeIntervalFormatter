@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SDCRelativeTimeIntervalFormatter: a821ea79794000e1c7a352ceb1f37584635c514e
+  SDCRelativeTimeIntervalFormatter: f0dfb1a9fc12687eb907fbba21dca387a75bfcb7
 
 PODFILE CHECKSUM: c1c2cba035f6748d5c513a346af13fc9642d212c
 

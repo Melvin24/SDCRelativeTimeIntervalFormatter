@@ -25,8 +25,9 @@ class SDCRelativeTimeIntervalFormatterCollectionViewControllerDelegate: NSObject
         let paddingSpace = sectionInsets.left
         let availableWidth = collectionView.frame.width - paddingSpace
         let widthPerItem = availableWidth
-        
-        return CGSize(width: widthPerItem, height: widthPerItem/2)
+        let height = widthPerItem/2
+
+        return CGSize(width: widthPerItem, height: height)
     }
     
 }

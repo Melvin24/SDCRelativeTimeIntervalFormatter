@@ -7,35 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE66C6C62FCD4E1905D9A8D0C10F20B /* SDCRelativeTimeIntervalFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68D1736F554BF1B3C4FA9B60FB5A7C3 /* SDCRelativeTimeIntervalFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EC267CCA429F1C994BA690D4A1E1C5B /* Pods-SDCRelativeTimeIntervalFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F797D3FD390A89CF40DAE0D15360772C /* Pods-SDCRelativeTimeIntervalFormatter_Tests-dummy.m */; };
-		516DC68DE3B6B553909D7100C3C0BD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		571C547CA3CF473033C6FB19C083280C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8646DE0C47A1A300B77C91F3E336511D /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C8B89C5674EB68B91DE8EFFDAF881 /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m */; };
+		48E6549903D7F3E1454EBF4831AEEA18 /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 222C83CE42C09C8235948C4472BFD0FB /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F6F2786AC004ADDF7DB38A79179D15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		571C547CA3CF473033C6FB19C083280C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		61FE2AF0DFD4FC845DB8C057855F7E06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */; };
+		639C6DC318E0BC7930F67D41F4482010 /* SDCRelativeTimeIntervalFormatter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EE89D78581BD06B8385BE8781F2C648 /* SDCRelativeTimeIntervalFormatter.bundle */; };
+		724ABE4F7B2FAD6D478A4A7819CF54EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */; };
+		85B1D3381ECE19ACF7C52C537DF31255 /* SDCPrettyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F452E3799B38A642CB8675C891D82CB /* SDCPrettyDate.swift */; };
 		93736031EDC7F0AC30B3DDFA9E0F8B96 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D8D36D65FFFB0A2006D504E46AA409 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9035E3715FFEFA0B7044CA3A4C48233 /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 222C83CE42C09C8235948C4472BFD0FB /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD5ACE93C99F4B955A64D4EE4DAFD03 /* SDCRelativeTimeIntervalFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFFD37D62BD382707A0FCB42ECAFA2 /* SDCRelativeTimeIntervalFormatter-dummy.m */; };
+		CFB7034CB6A140384A8BE9250A2225CA /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA464A8CB9BFD15E311CA7FB017B0C /* Strings.swift */; };
+		D73E84AD07626BC5326809DCE4BFD6CF /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C8B89C5674EB68B91DE8EFFDAF881 /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m */; };
+		F3877DB61DBE291A8CDD54CD7E77CACE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531A1824E05848B2FCE5A434F00B369A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ED8FD1BD6CB99E5C16245BEF82EDD9D;
+			remoteInfo = SDCRelativeTimeIntervalFormatter;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		14888FC48E899C32345F58DE7BE208BA /* Pods-SDCRelativeTimeIntervalFormatter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FDFFD37D62BD382707A0FCB42ECAFA2 /* SDCRelativeTimeIntervalFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDCRelativeTimeIntervalFormatter-dummy.m"; sourceTree = "<group>"; };
 		222C83CE42C09C8235948C4472BFD0FB /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h"; sourceTree = "<group>"; };
+		287E5FF104970B0D4893C98170CDF14D /* SDCRelativeTimeIntervalFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDCRelativeTimeIntervalFormatter.framework; path = SDCRelativeTimeIntervalFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288B90ED05FEB859B095B59C2E53E251 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
+		2F452E3799B38A642CB8675C891D82CB /* SDCPrettyDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDCPrettyDate.swift; sourceTree = "<group>"; };
+		30C85D149BE266C48B5ACB596BE26402 /* SDCRelativeTimeIntervalFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDCRelativeTimeIntervalFormatter.xcconfig; sourceTree = "<group>"; };
+		42475E821C1C7719C6E5490D3D0F9209 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDCRelativeTimeIntervalFormatter_Tests.framework; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502EA2B3C2453FDE730DF551D32F7985 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDCRelativeTimeIntervalFormatter_Example.framework; path = "Pods-SDCRelativeTimeIntervalFormatter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE89D78581BD06B8385BE8781F2C648 /* SDCRelativeTimeIntervalFormatter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SDCRelativeTimeIntervalFormatter.bundle; sourceTree = "<group>"; };
+		5F2F9A85AB4D3EAC9EF49D181F9289B5 /* SDCRelativeTimeIntervalFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDCRelativeTimeIntervalFormatter-prefix.pch"; sourceTree = "<group>"; };
+		62D7EF42A04A96745C12038EF739AB21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		89D54323F977175E107C112A2D906B89 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A7DE713AE3771D95FFC7A7E0F230DF4 /* Pods-SDCRelativeTimeIntervalFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDCRelativeTimeIntervalFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9231C1A695FACA61D9216455060E3BD7 /* Pods-SDCRelativeTimeIntervalFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A3C8B89C5674EB68B91DE8EFFDAF881 /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m"; sourceTree = "<group>"; };
-		A2FF910506DE17EE3B7DEE044B8296C2 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDCRelativeTimeIntervalFormatter_Tests.framework; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		A7EB2EECE1410F27D1527EF8C787FEA2 /* Pods-SDCRelativeTimeIntervalFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDCRelativeTimeIntervalFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AEF6F9AFF632349E962E8E77979AB4FF /* Pods-SDCRelativeTimeIntervalFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BEB9D65A0DCD6DF145CB9550C51FE5 /* SDCRelativeTimeIntervalFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDCRelativeTimeIntervalFormatter.modulemap; sourceTree = "<group>"; };
 		B70E517BA830D7EF47D11946DBAF4E3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E6D269575A5A124EC3B174F34DD67A /* Pods-SDCRelativeTimeIntervalFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDCRelativeTimeIntervalFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD8730F08B667FFFB8CDDE1AD1444FA1 /* Pods-SDCRelativeTimeIntervalFormatter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDCRelativeTimeIntervalFormatter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C11CE13C47B4A3CD0408B76E23567525 /* Pods-SDCRelativeTimeIntervalFormatter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDCRelativeTimeIntervalFormatter_Example-resources.sh"; sourceTree = "<group>"; };
 		C1D9D83ABFCF614E8C9AFA0C9A733AEB /* Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap"; sourceTree = "<group>"; };
 		C80555D6C0082C5322DF3C966CE3A5D7 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DCC930557697CA269A74AF1785178D77 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDCRelativeTimeIntervalFormatter_Example.framework; path = "Pods-SDCRelativeTimeIntervalFormatter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E523A398EBFEA271B20A04E82851CC2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EA464A8CB9BFD15E311CA7FB017B0C /* Strings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E68D1736F554BF1B3C4FA9B60FB5A7C3 /* SDCRelativeTimeIntervalFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDCRelativeTimeIntervalFormatter-umbrella.h"; sourceTree = "<group>"; };
 		E9D8D36D65FFFB0A2006D504E46AA409 /* Pods-SDCRelativeTimeIntervalFormatter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F2CFBD161B028E83FEC89CDDEAF35E27 /* Pods-SDCRelativeTimeIntervalFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests.modulemap"; sourceTree = "<group>"; };
 		F797D3FD390A89CF40DAE0D15360772C /* Pods-SDCRelativeTimeIntervalFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDCRelativeTimeIntervalFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -51,42 +81,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		318FA520094FFC867D991CFC4BD44323 /* Frameworks */ = {
+		A64B205329EB15114E80D477B551A9D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516DC68DE3B6B553909D7100C3C0BD1E /* Foundation.framework in Frameworks */,
+				4F6F2786AC004ADDF7DB38A79179D15C /* Foundation.framework in Frameworks */,
+				F3877DB61DBE291A8CDD54CD7E77CACE /* MapKit.framework in Frameworks */,
+				724ABE4F7B2FAD6D478A4A7819CF54EE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D248D6D9DCC013521060C05330373F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FE2AF0DFD4FC845DB8C057855F7E06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36F54B8B9967A8CA734005E00F7A540A /* SDCRelativeTimeIntervalFormatter */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				509C922CFB50FCD3DB8A08209AD57DDE /* iOS */,
 			);
-			name = SDCRelativeTimeIntervalFormatter;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		1286888E5A06CEDF5F18D6A2F348FBB5 /* SDCRelativeTimeIntervalFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				E966E1CDAD89F5E6FEAE8D3B91671A2E /* Shared */,
+			);
+			name = SDCRelativeTimeIntervalFormatter;
+			path = SDCRelativeTimeIntervalFormatter;
+			sourceTree = "<group>";
+		};
+		1C5E6803EA0A90CFC6B87A95E4C344E9 /* SDCRelativeTimeIntervalFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				4EE90AC50EAE87BD9EB3B528B4D63C9F /* Module */,
+				4A59B9CC4C09783BFB641D41021BE1BA /* Shared */,
+			);
+			name = SDCRelativeTimeIntervalFormatter;
+			path = SDCRelativeTimeIntervalFormatter;
+			sourceTree = "<group>";
+		};
+		4A59B9CC4C09783BFB641D41021BE1BA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E5EA464A8CB9BFD15E311CA7FB017B0C /* Strings.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4EE90AC50EAE87BD9EB3B528B4D63C9F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2F452E3799B38A642CB8675C891D82CB /* SDCPrettyDate.swift */,
+			);
+			name = Module;
+			path = Module;
+			sourceTree = "<group>";
+		};
+		509C922CFB50FCD3DB8A08209AD57DDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AE25E005002286C8AD2A3AEB652EF0 /* Foundation.framework */,
+				A5A5BACAEB2D40A04637B26529345DA0 /* MapKit.framework */,
+				74F915CAD7A4DC99C94A7822844D8867 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		63C2B6B78CFF9D581636351F6A0DA4E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0848C036E5E18B2D3557CA7B27704 /* SDCRelativeTimeIntervalFormatter */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E7306DC94D73723F404C24961C4E754A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EFAC9BFEC78040895B2C296237F23063 /* Products */,
+				63C2B6B78CFF9D581636351F6A0DA4E9 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				EE3B222BDFD043DDDAD1E2983383D418 /* Products */,
 				CC65459BB55C8CB446DFC952AD08B47D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9FF0848C036E5E18B2D3557CA7B27704 /* SDCRelativeTimeIntervalFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				A809196E0093A4E816FADADAE6CE5931 /* Resources */,
+				1C5E6803EA0A90CFC6B87A95E4C344E9 /* SDCRelativeTimeIntervalFormatter */,
+				C6A155921A3C11D78C4C01552E886AC5 /* Support Files */,
+			);
+			name = SDCRelativeTimeIntervalFormatter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A809196E0093A4E816FADADAE6CE5931 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1286888E5A06CEDF5F18D6A2F348FBB5 /* SDCRelativeTimeIntervalFormatter */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		AFBC1A279C06BDDEC3655E284D199DDD /* Pods-SDCRelativeTimeIntervalFormatter_Tests */ = {
@@ -107,12 +213,18 @@
 			path = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C6A155921A3C11D78C4C01552E886AC5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				62D7EF42A04A96745C12038EF739AB21 /* Info.plist */,
+				B2BEB9D65A0DCD6DF145CB9550C51FE5 /* SDCRelativeTimeIntervalFormatter.modulemap */,
+				30C85D149BE266C48B5ACB596BE26402 /* SDCRelativeTimeIntervalFormatter.xcconfig */,
+				1FDFFD37D62BD382707A0FCB42ECAFA2 /* SDCRelativeTimeIntervalFormatter-dummy.m */,
+				5F2F9A85AB4D3EAC9EF49D181F9289B5 /* SDCRelativeTimeIntervalFormatter-prefix.pch */,
+				E68D1736F554BF1B3C4FA9B60FB5A7C3 /* SDCRelativeTimeIntervalFormatter-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDCRelativeTimeIntervalFormatter";
 			sourceTree = "<group>";
 		};
 		CC65459BB55C8CB446DFC952AD08B47D /* Targets Support Files */ = {
@@ -142,19 +254,30 @@
 			path = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example";
 			sourceTree = "<group>";
 		};
-		E7306DC94D73723F404C24961C4E754A /* Development Pods */ = {
+		E210785BE06044AE4CCC36868B1E008E /* ResourceBundle */ = {
 			isa = PBXGroup;
 			children = (
-				36F54B8B9967A8CA734005E00F7A540A /* SDCRelativeTimeIntervalFormatter */,
+				5EE89D78581BD06B8385BE8781F2C648 /* SDCRelativeTimeIntervalFormatter.bundle */,
 			);
-			name = "Development Pods";
+			name = ResourceBundle;
+			path = ResourceBundle;
 			sourceTree = "<group>";
 		};
-		EFAC9BFEC78040895B2C296237F23063 /* Products */ = {
+		E966E1CDAD89F5E6FEAE8D3B91671A2E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				DCC930557697CA269A74AF1785178D77 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */,
-				A2FF910506DE17EE3B7DEE044B8296C2 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */,
+				E210785BE06044AE4CCC36868B1E008E /* ResourceBundle */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EE3B222BDFD043DDDAD1E2983383D418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502EA2B3C2453FDE730DF551D32F7985 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */,
+				42475E821C1C7719C6E5490D3D0F9209 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */,
+				287E5FF104970B0D4893C98170CDF14D /* SDCRelativeTimeIntervalFormatter.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +285,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		24479692CFD51D4FBC5062692AB2AF1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE66C6C62FCD4E1905D9A8D0C10F20B /* SDCRelativeTimeIntervalFormatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93233C98D0DD4A52A43E254D84C81815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E6549903D7F3E1454EBF4831AEEA18 /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		948074DB9991454A0F0E461702C564B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,32 +309,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB7C478A78A6BB2D79CE4A388E0FF9F0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9035E3715FFEFA0B7044CA3A4C48233 /* Pods-SDCRelativeTimeIntervalFormatter_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CD62B3AA0CED19E340A1F4073B866518 /* Pods-SDCRelativeTimeIntervalFormatter_Example */ = {
+		3ED8FD1BD6CB99E5C16245BEF82EDD9D /* SDCRelativeTimeIntervalFormatter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4992FD30DF9A704E930B01445643B888 /* Build configuration list for PBXNativeTarget "Pods-SDCRelativeTimeIntervalFormatter_Example" */;
+			buildConfigurationList = 965442CC2A1F53CD027FEA94501A8521 /* Build configuration list for PBXNativeTarget "SDCRelativeTimeIntervalFormatter" */;
 			buildPhases = (
-				9081BE832740BE3D0481AE24254B0B6C /* Sources */,
-				318FA520094FFC867D991CFC4BD44323 /* Frameworks */,
-				FB7C478A78A6BB2D79CE4A388E0FF9F0 /* Headers */,
+				4EC1D6B8E2FD2A45C6E3D77DF39C7073 /* Sources */,
+				A64B205329EB15114E80D477B551A9D0 /* Frameworks */,
+				1F8E7FFDC9D18AD54C56779D9796F77E /* Resources */,
+				24479692CFD51D4FBC5062692AB2AF1D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SDCRelativeTimeIntervalFormatter;
+			productName = SDCRelativeTimeIntervalFormatter;
+			productReference = 287E5FF104970B0D4893C98170CDF14D /* SDCRelativeTimeIntervalFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AD468AD4BC01576E73A75B720EDEC28 /* Pods-SDCRelativeTimeIntervalFormatter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DBF239F97CB846668D429BBECA7F98 /* Build configuration list for PBXNativeTarget "Pods-SDCRelativeTimeIntervalFormatter_Example" */;
+			buildPhases = (
+				F203A65998A9F7D65FEECDCB8765E6FB /* Sources */,
+				D248D6D9DCC013521060C05330373F97 /* Frameworks */,
+				93233C98D0DD4A52A43E254D84C81815 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E8FDD390A8EF80781F3180ADEE9C3C /* PBXTargetDependency */,
+			);
 			name = "Pods-SDCRelativeTimeIntervalFormatter_Example";
 			productName = "Pods-SDCRelativeTimeIntervalFormatter_Example";
-			productReference = DCC930557697CA269A74AF1785178D77 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */;
+			productReference = 502EA2B3C2453FDE730DF551D32F7985 /* Pods_SDCRelativeTimeIntervalFormatter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FFEA77BF1A3594F46B3AC5B114EF6198 /* Pods-SDCRelativeTimeIntervalFormatter_Tests */ = {
@@ -212,7 +362,7 @@
 			);
 			name = "Pods-SDCRelativeTimeIntervalFormatter_Tests";
 			productName = "Pods-SDCRelativeTimeIntervalFormatter_Tests";
-			productReference = A2FF910506DE17EE3B7DEE044B8296C2 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */;
+			productReference = 42475E821C1C7719C6E5490D3D0F9209 /* Pods_SDCRelativeTimeIntervalFormatter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -232,22 +382,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EFAC9BFEC78040895B2C296237F23063 /* Products */;
+			productRefGroup = EE3B222BDFD043DDDAD1E2983383D418 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD62B3AA0CED19E340A1F4073B866518 /* Pods-SDCRelativeTimeIntervalFormatter_Example */,
+				5AD468AD4BC01576E73A75B720EDEC28 /* Pods-SDCRelativeTimeIntervalFormatter_Example */,
 				FFEA77BF1A3594F46B3AC5B114EF6198 /* Pods-SDCRelativeTimeIntervalFormatter_Tests */,
+				3ED8FD1BD6CB99E5C16245BEF82EDD9D /* SDCRelativeTimeIntervalFormatter */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1F8E7FFDC9D18AD54C56779D9796F77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C6DC318E0BC7930F67D41F4482010 /* SDCRelativeTimeIntervalFormatter.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9081BE832740BE3D0481AE24254B0B6C /* Sources */ = {
+		4EC1D6B8E2FD2A45C6E3D77DF39C7073 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8646DE0C47A1A300B77C91F3E336511D /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m in Sources */,
+				85B1D3381ECE19ACF7C52C537DF31255 /* SDCPrettyDate.swift in Sources */,
+				AFD5ACE93C99F4B955A64D4EE4DAFD03 /* SDCRelativeTimeIntervalFormatter-dummy.m in Sources */,
+				CFB7034CB6A140384A8BE9250A2225CA /* Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +423,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F203A65998A9F7D65FEECDCB8765E6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73E84AD07626BC5326809DCE4BFD6CF /* Pods-SDCRelativeTimeIntervalFormatter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E8E8FDD390A8EF80781F3180ADEE9C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDCRelativeTimeIntervalFormatter;
+			target = 3ED8FD1BD6CB99E5C16245BEF82EDD9D /* SDCRelativeTimeIntervalFormatter */;
+			targetProxy = 531A1824E05848B2FCE5A434F00B369A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		097FFA719646FB37E680E0B92EEAA4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E6D269575A5A124EC3B174F34DD67A /* Pods-SDCRelativeTimeIntervalFormatter_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDCRelativeTimeIntervalFormatter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5385028174993CC9F24233D05E4D43CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9231C1A695FACA61D9216455060E3BD7 /* Pods-SDCRelativeTimeIntervalFormatter_Tests.release.xcconfig */;
@@ -291,6 +508,38 @@
 				PRODUCT_NAME = Pods_SDCRelativeTimeIntervalFormatter_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		544311BC4621136B2498E8D5173433BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C85D149BE266C48B5ACB596BE26402 /* SDCRelativeTimeIntervalFormatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDCRelativeTimeIntervalFormatter/SDCRelativeTimeIntervalFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDCRelativeTimeIntervalFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDCRelativeTimeIntervalFormatter/SDCRelativeTimeIntervalFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDCRelativeTimeIntervalFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -332,6 +581,41 @@
 			};
 			name = Debug;
 		};
+		8A3164D3E0836BF9DCE03F0ED624B575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EB2EECE1410F27D1527EF8C787FEA2 /* Pods-SDCRelativeTimeIntervalFormatter_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SDCRelativeTimeIntervalFormatter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -369,41 +653,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		91CE18B6785A3EE2518C5284052A2B62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7EB2EECE1410F27D1527EF8C787FEA2 /* Pods-SDCRelativeTimeIntervalFormatter_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SDCRelativeTimeIntervalFormatter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -451,9 +700,9 @@
 			};
 			name = Debug;
 		};
-		E0B53341C4C349D5E5CCE314C54F86FD /* Debug */ = {
+		C8BA7A2407E14C84ECAB4A8FD9D77E6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E6D269575A5A124EC3B174F34DD67A /* Pods-SDCRelativeTimeIntervalFormatter_Example.debug.xcconfig */;
+			baseConfigurationReference = 30C85D149BE266C48B5ACB596BE26402 /* SDCRelativeTimeIntervalFormatter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,20 +715,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SDCRelativeTimeIntervalFormatter/SDCRelativeTimeIntervalFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDCRelativeTimeIntervalFormatter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SDCRelativeTimeIntervalFormatter_Example/Pods-SDCRelativeTimeIntervalFormatter_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SDCRelativeTimeIntervalFormatter/SDCRelativeTimeIntervalFormatter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SDCRelativeTimeIntervalFormatter_Example;
+				PRODUCT_NAME = SDCRelativeTimeIntervalFormatter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -507,11 +754,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4992FD30DF9A704E930B01445643B888 /* Build configuration list for PBXNativeTarget "Pods-SDCRelativeTimeIntervalFormatter_Example" */ = {
+		63DBF239F97CB846668D429BBECA7F98 /* Build configuration list for PBXNativeTarget "Pods-SDCRelativeTimeIntervalFormatter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0B53341C4C349D5E5CCE314C54F86FD /* Debug */,
-				91CE18B6785A3EE2518C5284052A2B62 /* Release */,
+				097FFA719646FB37E680E0B92EEAA4C2 /* Debug */,
+				8A3164D3E0836BF9DCE03F0ED624B575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965442CC2A1F53CD027FEA94501A8521 /* Build configuration list for PBXNativeTarget "SDCRelativeTimeIntervalFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BA7A2407E14C84ECAB4A8FD9D77E6F /* Debug */,
+				544311BC4621136B2498E8D5173433BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

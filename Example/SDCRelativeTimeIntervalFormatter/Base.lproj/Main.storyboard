@@ -6,11 +6,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Relative Time Interval Formatter Collection View Controller-->
+        <!--Collection View Controller-->
         <scene sceneID="uNr-7V-NNB">
             <objects>
                 <collectionViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="hXr-Gh-dcD" customClass="SDCRelativeTimeIntervalFormatterCollectionViewController" customModule="SDCRelativeTimeIntervalFormatter_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" id="Mzb-rg-oDb">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" id="Mzb-rg-oDb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,7 +33,11 @@
                         <outlet property="collectionView" destination="Mzb-rg-oDb" id="83C-NS-Hgt"/>
                     </connections>
                 </customObject>
-                <customObject id="kVU-hO-PZ9" customClass="SDCRelativeTimeIntervalFormatterCollectionViewControllerDataSource" customModule="SDCRelativeTimeIntervalFormatter_Example" customModuleProvider="target"/>
+                <customObject id="kVU-hO-PZ9" customClass="SDCRelativeTimeIntervalFormatterCollectionViewControllerDataSource" customModule="SDCRelativeTimeIntervalFormatter_Example" customModuleProvider="target">
+                    <connections>
+                        <outlet property="collectionViewController" destination="hXr-Gh-dcD" id="nT5-O0-FGR"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="149.59999999999999" y="52.623688155922046"/>
         </scene>

@@ -40,7 +40,13 @@
                         </constraints>
                         <nil key="textColor"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <textInputTraits key="textInputTraits"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                        <connections>
+                            <action selector="editingDidEnd:" destination="Fyb-sV-86C" eventType="editingDidEnd" id="DpB-pd-unc"/>
+                            <action selector="textFieldPrimaryActionTriggered:" destination="Fyb-sV-86C" eventType="primaryActionTriggered" id="0Pw-1q-VCv"/>
+                            <action selector="textFieldSelected:" destination="Fyb-sV-86C" eventType="touchUpInside" id="CKn-8h-qkG"/>
+                            <action selector="textFieldSelected:" destination="Fyb-sV-86C" eventType="editingDidEnd" id="k2Z-8U-ayq"/>
+                        </connections>
                     </textField>
                 </subviews>
             </view>

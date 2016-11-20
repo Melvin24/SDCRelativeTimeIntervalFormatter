@@ -1,0 +1,6 @@
+framework module SDCRelativeTimeIntervalFormatter {
+  umbrella header "SDCRelativeTimeIntervalFormatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

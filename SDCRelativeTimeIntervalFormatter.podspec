@@ -18,11 +18,9 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
 
-    s.source_files = 'SDCRelativeTimeIntervalFormatter/Source/**/*'
+    s.source_files = 'SDCRelativeTimeIntervalFormatter/**/*.{swift}'
 
-    s.resource_bundles = {
-        'SDCRelativeTimeIntervalFormatter' => ['SDCRelativeTimeIntervalFormatter/Assets/*.lproj']
-    }
+    s.resources = 'SDCRelativeTimeIntervalFormatter/Shared/ResourceBundle/*'
 
     # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'MapKit'

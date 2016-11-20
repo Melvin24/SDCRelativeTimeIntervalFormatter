@@ -1,9 +1,8 @@
 {
   "name": "SDCRelativeTimeIntervalFormatter",
   "version": "0.1.0",
-  "summary": "A short description of SDCRelativeTimeIntervalFormatter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SDCRelativeTimeIntervalFormatter",
+  "summary": "SDCRelativeTimeIntervalFormatter is a simple tool that lets a user get a prettified string of a given TimeInterval or Dates",
+  "homepage": "https://github.com/Melvin24/SDCRelativeTimeIntervalFormatter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,16 @@
     "John, Melvin (Associate Software Developer)": "Melvin.John@sky.uk"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SDCRelativeTimeIntervalFormatter.git",
+    "git": "https://github.com/Melvin24/SDCRelativeTimeIntervalFormatter.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SDCRelativeTimeIntervalFormatter/Classes/**/*"
+  "source_files": "SDCRelativeTimeIntervalFormatter/**/*.{swift}",
+  "resources": "SDCRelativeTimeIntervalFormatter/Shared/ResourceBundle/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }
